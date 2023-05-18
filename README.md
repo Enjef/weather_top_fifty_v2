@@ -44,7 +44,7 @@ docker-compose exec weather python collector.py
 ```
 
 ### Optional
-Убедиться что данные сохраняются в можно запросом к базе в образе.
+Убедиться что данные сохраняются можно запросом к базе в образе.
 ```
 docker-compose exec -it db psql -U postgres -c 'SELECT * FROM weather;'
 ```
