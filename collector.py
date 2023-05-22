@@ -86,7 +86,7 @@ class Collector:
             except Exception as ex:
                 logging.exception(f'Не удалось сохранить данные: {ex}')
             print('Collection done in', datetime.now()-start)
-            await asyncio.sleep(70)
+            await asyncio.sleep(3600)
         return
 
 
